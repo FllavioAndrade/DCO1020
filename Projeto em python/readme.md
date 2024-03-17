@@ -12,8 +12,6 @@ Este programa implementa um modelo de propagação de onda para calcular a taxa 
 - Analisar potência recebida visualmente por meio de Radio Environment Maps (REMs);
 - Fazer exemplo de estudo de Outage de potência.
 
-## Dependências
-- numpy: Uma poderosa biblioteca para cálculos numéricos em Python.
 
 ## Uso
 <strong> OBS: caso queira entender a construção de cada código, leia o <a href=“https://github.com/FllavioAndrade/DCO1020/tree/main/Projeto%20em%20python/Script“>readme.md </a> da pasta script</strong>
