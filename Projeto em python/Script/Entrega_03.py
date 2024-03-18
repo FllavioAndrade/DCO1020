@@ -74,3 +74,5 @@ def calcPower (dR, dFc, tipo):
     plt.title('Todas as 7 ERB')
 
     plt.show()
+
+#calcPower(5e3, 800, 1)
