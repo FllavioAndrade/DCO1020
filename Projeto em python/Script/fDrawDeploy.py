@@ -10,10 +10,10 @@ def fDrawDeploy(dR, vtBs):
     plt.axis('equal')
 
 # Exemplo de coordenadas para 3 BSs
-vtBs = np.array([100+15j, 250 +100j, 100+190j])
+#vtBs = np.array([100+15j, 250 +100j, 100+190j])
 
 # Desenha a implantação com raio 100
-fDrawDeploy(100, vtBs)
+#fDrawDeploy(100, vtBs)
 
 # Exibe o gráfico final
-plt.show()
+#plt.show()
