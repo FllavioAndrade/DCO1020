@@ -1,8 +1,6 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-
-# Suponha que fDrawDeploy seja uma função definida em outro lugar do código ou importada de um módulo externo
 import fDrawDeploy
 
 dR = 5e3  # Raio do Hexágono

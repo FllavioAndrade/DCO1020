@@ -25,14 +25,14 @@ pip install numpy
 
 #### FdrawSector.py
 
-Este script Python desenha um setor hexagonal na tela usando a biblioteca Matplotlib. 
+Esse script desenha um setor hexagonal em um plano complexo usando a biblioteca matplotlib.pyplo
 - Para testar o script isolado, descomente as linhas 13, 16, 17 e 18.
 
 <br>
 
 #### FdrawDeploy.py
 
-Este script Python permite a visualização de uma implantação de rede celular com células hexagonais.
+Esse script desenha uma implantação de células hexagonais para simular uma rede de comunicação celular, juntamente com as posições das estações base (ERBs) no plano complexo.
 - Para testar o script isolado, descomente as linhas 13, 16, 19.
 
 <br>
@@ -45,19 +45,20 @@ Este script Python demonstra a criação de um gráfico que representa, por exem
 
 #### Entrega_2.py
     
-Este Script realiza criação dos pontos de medição do REM de cada ERB. A ideia é criar 7 matrizes, cada uma com a posição relativa dos pontos demedição de todo o grid para cada ERB.
+Este script desenha e simula a distribuição dos pontos de medição em relação às estações base em uma rede de comunicação celular.  É útil para visualizar a distribuição dos pontos de medição em uma rede celular e entender a cobertura do sinal em diferentes áreas em relação às estações base.
 
 <br>
 
 #### Entrega_3.py
 
-Esse Script realiza o  cálculo da potência recebida nos pontos de medição do REM de cada ERB, e também considera a composição das 7 ERBs. Além disso, precisamos considerar que a potência recebida de cada ponto de medição é a maior potência recebida em relação as 7 ERBs.
+Esse Script realiza o  cálculo da potência recebida nos pontos de medição do REM de cada ERB, e também considera a composição das 7 ERBs. Além disso, precisamos considerar que a potência recebida de cada ponto de medição é a maior potência recebida em relação as 7 ERBs. É útil para, por exemplo, entender a distribuição da potência recebida em uma rede celular e como diferentes modelos de propagação afetam essa distribuição.
+- Pode ser usado o modelo de propagação de Okumura-Hata ou COST 231
 
 <br>
 
 #### Entrega_04.py
 
-Este script a calcula a taxa de interrupção (outage) de potência  utilizando os modelos de propagação Okumura-Hata e COST 231. Além disso, oferece a funcionalidade de calcular a potência recebida nos pontos de medição do Mapa de Ambiente de Rádio (REM) de cada estação base (ERB).
+Este script a calcula a taxa de interrupção (outage) de potência  utilizando os modelos de propagação Okumura-Hata e COST 231. Além disso, oferece a funcionalidade de calcular a potência recebida nos pontos de medição do Mapa de Ambiente de Rádio (REM) de cada estação base (ERB). 
 
 
 ### Considerações
